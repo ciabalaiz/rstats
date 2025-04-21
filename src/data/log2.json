@@ -1,24 +1,24 @@
 [
     {
-      "playerCount": 36,
+      "players": 36,
       "winner": "Anomalies",
       "points": 44,
-      "winner2": "GOC",
-      "points2": 29,
-      "spawnwaves": ["TDM", "NTF", "GOC"],
+      "winner2": "Unknown",
+      "points2": 0,
+      "spawnwaves": ["GOC", "TDM", "NTF"],
       "scps": ["173", "049", "457"]
     },
     {
-      "playerCount": 36,
+      "players": 36,
       "winner": "Foundation",
       "points": 43,
       "winner2": "Anomalies",
       "points2": 39,
       "spawnwaves": ["2 NTF"],
-      "scps": ["106", "457", "966"]
+      "scps": ["457", "966", "106"]
     },
     {
-      "playerCount": 36,
+      "players": 36,
       "winner": "Anomalies",
       "points": 32,
       "winner2": "Foundation",
@@ -27,7 +27,7 @@
       "scps": ["457", "106", "096"]
     },
     {
-      "playerCount": 36,
+      "players": 36,
       "winner": "Anomalies",
       "points": 48,
       "winner2": "Foundation",
@@ -36,7 +36,7 @@
       "scps": ["173", "049", "035"]
     },
     {
-      "playerCount": 25,
+      "players": 25,
       "winner": "Counter",
       "points": 38,
       "winner2": "Anomalies",
@@ -45,7 +45,7 @@
       "scps": ["457", "966"]
     },
     {
-      "playerCount": 20,
+      "players": 20,
       "winner": "Counter",
       "points": 48,
       "winner2": "Anomalies",
@@ -54,7 +54,7 @@
       "scps": ["173", "049"]
     },
     {
-      "playerCount": 30,
+      "players": 30,
       "winner": "Counter",
       "points": 41,
       "winner2": "Anomalies",
@@ -63,7 +63,7 @@
       "scps": ["457", "049", "966"]
     },
     {
-      "playerCount": 34,
+      "players": 34,
       "winner": "Anomalies",
       "points": 34,
       "winner2": "Foundation",
@@ -72,7 +72,7 @@
       "scps": ["280", "049", "457"]
     },
     {
-      "playerCount": 25,
+      "players": 25,
       "winner": "Anomalies",
       "points": 36,
       "winner2": "Foundation",
@@ -81,7 +81,7 @@
       "scps": ["280", "096", "966"]
     },
     {
-      "playerCount": 36,
+      "players": 36,
       "winner": "Counter",
       "points": 80,
       "winner2": "Anomalies",
