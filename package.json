@@ -12,10 +12,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@mantine/charts": "^7.17.4",
     "@mantine/core": "^7.17.4",
     "@mantine/hooks": "^7.17.4",
+    "chart.js": "^4.4.9",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
@@ -27,6 +31,9 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
     "vite": "^6.3.1"
   },
   "homepage": "https://ciabalaiz.github.io/rstats"

@@ -1,0 +1,321 @@
+[
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 46,
+      "winner2": "Unknown",
+      "points2": 30,
+      "scps": [],
+      "spawnwaves": ["CI"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 42,
+      "winner2": "Unknown",
+      "points2": 30,
+      "scps": ["457", "049"],
+      "spawnwaves": ["SH", "CI"]
+    },
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 56,
+      "winner2": "Unknown",
+      "points2": 47,
+      "scps": ["280", "106", "966"],
+      "spawnwaves": ["Tacrep", "CI", "TDM"]
+    },
+    {
+      "players": 30,
+      "winner": "Anomalies",
+      "points": 30,
+      "winner2": "Unknown",
+      "points2": 28,
+      "scps": ["280", "106"],
+      "spawnwaves": ["SH", "GOC", "CI"]
+    },
+    {
+      "players": 30,
+      "winner": "Foundation",
+      "points": 63,
+      "winner2": "Unknown",
+      "points2": 28,
+      "scps": ["173", "106", "035"],
+      "spawnwaves": ["NTF", "GOC"]
+    },
+    {
+      "players": 27,
+      "winner": "Foundation",
+      "points": 57,
+      "winner2": "Unknown",
+      "points2": 46,
+      "scps": ["457", "035"],
+      "spawnwaves": ["TDM", "SH"]
+    },
+    {
+      "players": 27,
+      "winner": "Foundation",
+      "points": 50,
+      "winner2": "Unknown",
+      "points2": 44,
+      "scps": ["106", "049", "457"],
+      "spawnwaves": ["NTF", "GOC"]
+    },
+    {
+      "players": 36,
+      "winner": "GOC",
+      "points": 56,
+      "winner2": "Unknown",
+      "points2": 28,
+      "scps": ["173", "049"],
+      "spawnwaves": ["GOC", "GOC"]
+    },
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 55,
+      "winner2": "Unknown",
+      "points2": 39,
+      "scps": ["106", "049", "280"],
+      "spawnwaves": ["CI", "CI"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 53,
+      "winner2": "Unknown",
+      "points2": 30,
+      "scps": [],
+      "spawnwaves": ["SH", "NTF"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 58,
+      "winner2": "Unknown",
+      "points2": 26,
+      "scps": ["106"],
+      "spawnwaves": ["GOC", "NTF"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 75,
+      "winner2": "Unknown",
+      "points2": 37,
+      "scps": ["457", "096", "049"],
+      "spawnwaves": ["GOC", "NTF", "NTF"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 41,
+      "winner2": "Unknown",
+      "points2": 30,
+      "scps": ["106", "173", "457"],
+      "spawnwaves": ["CI", "GOC"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 91,
+      "winner2": "Unknown",
+      "points2": 13,
+      "spawnwaves": ["MTF"],
+      "scps": ["096", "966", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 62,
+      "winner2": "Unknown",
+      "points2": 30,
+      "spawnwaves": ["NTF", "SH"],
+      "scps": ["966", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 118,
+      "winner2": "Unknown",
+      "points2": 21,
+      "spawnwaves": ["TDM", "2NTFs"],
+      "scps": ["106", "966"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 94,
+      "winner2": "Unknown",
+      "points2": 41,
+      "spawnwaves": ["NTF", "TACREP", "NTF", "CI"],
+      "scps": ["096", "457", "049"]
+    },
+    {
+      "players": 34,
+      "winner": "Foundation",
+      "points": 59,
+      "winner2": "Unknown",
+      "points2": 48,
+      "spawnwaves": ["SH", "NTF"],
+      "scps": ["173", "106", "096"]
+    },
+    {
+      "players": 36,
+      "winner": "GOC",
+      "points": 56,
+      "winner2": "Unknown",
+      "points2": 47,
+      "spawnwaves": ["NTF", "GOC"],
+      "scps": ["096", "173", "049"],
+      "note": "049 wasn't caring about points and kept making zombies while fighting alone against crowd of GOCs. 096 died trying to fight GOC spawnwave alone"
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 62,
+      "winner2": "Counter",
+      "points2": 62,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["049", "966", "457"],
+      "note": "CI spawnwave destroyed by 009. 049 wasn't caring about points and kept making zombies “I play for fun”. But at the end he kept said that he carried"
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 34,
+      "winner2": "Unknown",
+      "points2": 28,
+      "spawnwaves": ["NTF", "SH"],
+      "scps": ["106", "457", "096"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 45,
+      "winner2": "Unknown",
+      "points2": 30,
+      "spawnwaves": ["SH", "CI"],
+      "scps": []
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 52,
+      "winner2": "Unknown",
+      "points2": 26,
+      "spawnwaves": ["NTF"],
+      "scps": ["966", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 55,
+      "winner2": "Unknown",
+      "points2": 28,
+      "spawnwaves": ["CI"],
+      "scps": []
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 42,
+      "winner2": "Unknown",
+      "points2": 29,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["096", "457", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 91,
+      "winner2": "Unknown",
+      "points2": 45,
+      "spawnwaves": ["GOC", "NTF"],
+      "scps": ["049", "280", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 67,
+      "winner2": "Unknown",
+      "points2": 33,
+      "spawnwaves": ["NTF"],
+      "scps": ["966", "173", "049"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 32,
+      "winner2": "Anomalies",
+      "points2": 32,
+      "spawnwaves": ["GOC", "SH"],
+      "scps": ["280", "049", "106"]
+    },
+    {
+      "players": 34,
+      "winner": "Anomalies",
+      "points": 43,
+      "winner2": "Unknown",
+      "points2": 12,
+      "spawnwaves": ["GOC", "SH"],
+      "scps": ["966", "280", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 78,
+      "winner2": "Unknown",
+      "points2": 16,
+      "spawnwaves": ["TACREP", "NTF"],
+      "scps": ["280", "457", "049"],
+      "note": "NUKE on 8:20"
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 74,
+      "winner2": "Unknown",
+      "points2": 37,
+      "spawnwaves": ["TDM", "CI"],
+      "scps": ["966", "049", "035", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 89,
+      "winner2": "Unknown",
+      "points2": 32,
+      "spawnwaves": ["SH", "CI"],
+      "scps": ["049", "280", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 36,
+      "winner2": "Unknown",
+      "points2": 13,
+      "spawnwaves": ["GOC", "CI"],
+      "scps": ["280", "173", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 62,
+      "winner2": "Unknown",
+      "points2": 32,
+      "spawnwaves": ["NTF"],
+      "scps": ["173", "096", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 54,
+      "winner2": "Unknown",
+      "points2": 53,
+      "spawnwaves": ["SH", "NTF"],
+      "scps": [],
+      "note": "I hate playing as 049"
+    }
+  ]
