@@ -1,40 +1,55 @@
 // src/components/FactionChart.jsx
 import React from 'react';
-import { Pie } from 'react-chartjs-2';
-import logs from '../data/log.json';
+import { Doughnut } from 'react-chartjs-2';
 
-export default function FactionChart() {
-  // count wins per faction
-  const counts = logs.reduce((acc, { winner }) => {
-    acc[winner] = (acc[winner] || 0) + 1;
-    return acc;
-  }, {});
+// Helper function to generate random color
+const getRandomColor = () => {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
 
-  const labels = Object.keys(counts);
-  const data = {
-    labels,
-    datasets: [{
-      data: labels.map(l => counts[l]),
-      backgroundColor: [
-        '#4caf50','#f44336','#2196f3','#ff9800','#b540d9','#7fe4f1'
-      ],
-      borderColor: '#1e1e1e',
-      borderWidth: 2
-    }]
+function FactionChart({logData}) {
+  const factionStats = {
+    Foundation: 0,
+    Anomalies: 0,
+    Counter: 0,
   };
 
+  if (logData && Array.isArray(logData)) {
+    
+    logData.forEach(log => {
+    if (log.winner && factionStats.hasOwnProperty(log.winner)) {
+      factionStats[log.winner]++;
+    }
+  });
+} else {
+    console.error("Invalid data:", logData);
+}
+
+
+  const labels = Object.keys(factionStats);
+  const data = Object.values(factionStats);
+  const backgroundColors = labels.map(() => getRandomColor()); // Random colors for each faction
+
   return (
-    <Pie
-      data={data}
-      options={{
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Faction Win Distribution'
-          }
-        }
-      }}
-    />
+    <div style={{ maxWidth: '600px', margin: '0 auto' }}> {/* Resize chart */}
+      <Doughnut
+        data={{
+          labels,
+          datasets: [
+            {
+              data,
+              backgroundColor: backgroundColors,
+            },
+          ],
+        }}
+      />
+    </div>
   );
 }
+
+export default FactionChart;

@@ -1,5 +1,5 @@
 import { Card, Text, Badge, Group, Stack } from '@mantine/core';
-import logs from '../data/log.json';
+
 
 function nameFix(name) {
     name = name.toLowerCase()
@@ -26,11 +26,11 @@ function spawnwaveFix(spawnwaves) {
     return newSpawnwave
 }
 
-export default function LogList() {
+export default function LogList({logData}) {
     
   return (
     <Stack spacing="md">
-      {logs.map((log, idx) => {
+      {logData.map((log, idx) => {
         const diff = Math.abs(log.points - log.points2);
         var newSpawnwave = spawnwaveFix(log.spawnwaves)
         return (

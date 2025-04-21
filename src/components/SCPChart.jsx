@@ -1,49 +1,69 @@
 // src/components/SCPChart.jsx
 import React from 'react';
-import { Pie } from 'react-chartjs-2';
-import logs from '../data/log.json';
+import { Bar } from 'react-chartjs-2';
 
-export default function SCPChart() {
-  // count only when Anomalies won with more points
-  const counts = {};
-  logs.forEach(({ winner, points, points2, scps = [] }) => {
-    if (winner === 'Anomalies' && points > points2) {
-      scps.forEach(scp => {
-        counts[scp] = (counts[scp] || 0) + 1;
-      });
-    }
+// Helper function to generate random color
+const getRandomColor = () => {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+function SCPChart({ logData }) {
+  const scpStats = {};
+
+  logData.forEach(log => {
+    const scps = log.scps || [];
+    const anomaliesWon = log.winner === "Anomalies" && log.points > (log.points2 ?? 0);
+
+    scps.forEach(scp => {
+      if (!scpStats[scp]) {
+        scpStats[scp] = { wins: 0, total: 0 };
+      }
+      scpStats[scp].total++;
+      if (anomaliesWon) {
+        scpStats[scp].wins++;
+      }
+    });
   });
 
-  const labels = Object.keys(counts);
-  const data = {
-    labels,
-    datasets: [{
-      data: labels.map(l => counts[l]),
-      backgroundColor: [
-        '#4caf50','#f44336','#2196f3','#ff9800','#b540d9','#7fe4f1'
-      ],
-      borderColor: '#1e1e1e',
-      borderWidth: 2
-    }]
-  };
+  const labels = Object.keys(scpStats);
+  const winRates = labels.map(scp => {
+    const { wins, total } = scpStats[scp];
+    return ((wins / total) * 100).toFixed(1);
+  });
+
+  // Generate random colors for each SCP
+  const backgroundColors = labels.map(() => getRandomColor()); 
 
   return (
-    <Pie
-      data={data}
-      options={{
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Anomalies Wins by SCP (count)'
+    <div style={{ maxWidth: '600px', margin: '0 auto' }}> {/* Resize chart */}
+      <Bar
+        data={{
+          labels,
+          datasets: [
+            {
+              label: "SCP Win Rate (%)",
+              data: winRates,
+              backgroundColor: backgroundColors,
+            },
+          ],
+        }}
+        options={{
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 100,
+            },
           },
-          tooltip: {
-            callbacks: {
-              label: ctx => `${ctx.label}: ${ctx.raw} wins`
-            }
-          }
-        }
-      }}
-    />
+        }}
+      />
+    </div>
   );
 }
+
+export default SCPChart;

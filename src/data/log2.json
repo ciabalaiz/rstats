@@ -1,0 +1,93 @@
+[
+    {
+      "playerCount": 36,
+      "winner": "Anomalies",
+      "points": 44,
+      "winner2": "GOC",
+      "points2": 29,
+      "spawnwaves": ["TDM", "NTF", "GOC"],
+      "scps": ["173", "049", "457"]
+    },
+    {
+      "playerCount": 36,
+      "winner": "Foundation",
+      "points": 43,
+      "winner2": "Anomalies",
+      "points2": 39,
+      "spawnwaves": ["2 NTF"],
+      "scps": ["106", "457", "966"]
+    },
+    {
+      "playerCount": 36,
+      "winner": "Anomalies",
+      "points": 32,
+      "winner2": "Foundation",
+      "points2": 15,
+      "spawnwaves": ["2CI", "GOC"],
+      "scps": ["457", "106", "096"]
+    },
+    {
+      "playerCount": 36,
+      "winner": "Anomalies",
+      "points": 48,
+      "winner2": "Foundation",
+      "points2": 39,
+      "spawnwaves": ["GOC", "NTF"],
+      "scps": ["173", "049", "035"]
+    },
+    {
+      "playerCount": 25,
+      "winner": "Counter",
+      "points": 38,
+      "winner2": "Anomalies",
+      "points2": 31,
+      "spawnwaves": ["SH", "CI"],
+      "scps": ["457", "966"]
+    },
+    {
+      "playerCount": 20,
+      "winner": "Counter",
+      "points": 48,
+      "winner2": "Anomalies",
+      "points2": 15,
+      "spawnwaves": ["2CI", "TDM"],
+      "scps": ["173", "049"]
+    },
+    {
+      "playerCount": 30,
+      "winner": "Counter",
+      "points": 41,
+      "winner2": "Anomalies",
+      "points2": 21,
+      "spawnwaves": ["GOC", "NTF", "CI"],
+      "scps": ["457", "049", "966"]
+    },
+    {
+      "playerCount": 34,
+      "winner": "Anomalies",
+      "points": 34,
+      "winner2": "Foundation",
+      "points2": 15,
+      "spawnwaves": ["GOC", "SH"],
+      "scps": ["280", "049", "457"]
+    },
+    {
+      "playerCount": 25,
+      "winner": "Anomalies",
+      "points": 36,
+      "winner2": "Foundation",
+      "points2": 16,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["280", "096", "966"]
+    },
+    {
+      "playerCount": 36,
+      "winner": "Counter",
+      "points": 80,
+      "winner2": "Anomalies",
+      "points2": 34,
+      "spawnwaves": ["2 CI"],
+      "scps": ["173", "096", "457"]
+    }
+  ]
+  
