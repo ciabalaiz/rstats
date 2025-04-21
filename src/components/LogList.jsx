@@ -27,7 +27,7 @@ function spawnwaveFix(spawnwaves) {
 }
 
 export default function LogList({logData}) {
-    
+  console.log(logData)
   return (
     <Stack spacing="md">
       {logData.map((log, idx) => {
