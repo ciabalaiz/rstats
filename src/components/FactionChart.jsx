@@ -1,8 +1,9 @@
-// src/components/FactionChart.jsx
+
 import React from 'react';
+import { Card, Title, Text } from '@mantine/core'; 
 import { Doughnut } from 'react-chartjs-2';
 
-// Helper function to generate random color
+
 const getRandomColor = () => {
   const letters = '0123456789ABCDEF';
   let color = '#';
@@ -33,22 +34,43 @@ function FactionChart({logData}) {
 
   const labels = Object.keys(factionStats);
   const data = Object.values(factionStats);
-  const backgroundColors = labels.map(() => getRandomColor()); // Random colors for each faction
+  const backgroundColors = labels.map(() => getRandomColor()); 
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto' }}> {/* Resize chart */}
-      <Doughnut
-        data={{
-          labels,
-          datasets: [
-            {
-              data,
-              backgroundColor: backgroundColors,
-            },
-          ],
-        }}
-      />
-    </div>
+<div
+  style={{
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: '3rem',
+    padding: '1rem',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  }}
+>
+  <div style={{ flex: '1 1 250px', maxWidth: '400px' }}>
+    <Card shadow="sm" padding="lg">
+      <Title order={4}>Information</Title>
+      <Text>
+        This chart shows how many times each faction (Foundation, Anomalies, Counter) has won a round. 
+        You can switch datasets at the top of the page to see how stats change over time.
+      </Text>
+    </Card>
+  </div>
+
+  <div style={{ flex: '1 1 400px', maxWidth: '500px' }}>
+    <Doughnut
+      data={{
+        labels,
+        datasets: [
+          {
+            data,
+            backgroundColor: backgroundColors,
+          },
+        ],
+      }}
+    />
+  </div>
+</div>
   );
 }
 
