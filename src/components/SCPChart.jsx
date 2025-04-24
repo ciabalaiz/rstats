@@ -1,16 +1,9 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Card, Title, Text } from '@mantine/core'; // Optional: for better styling
+import colors  from '../factionColors'
 
-// Helper function to generate random color
-const getRandomColor = () => {
-  const letters = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-};
+const scpColors = colors.scpColors
 
 function SCPChart({ logData }) {
   const scpStats = {};
@@ -36,7 +29,9 @@ function SCPChart({ logData }) {
     return ((wins / total) * 100).toFixed(1);
   });
 
-  const backgroundColors = labels.map(() => getRandomColor());
+  const backgroundColors = labels.map((f) => {
+    return scpColors[f]
+  });
 
   return (
     <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', maxWidth: '1000px', margin: '0 auto' }}>

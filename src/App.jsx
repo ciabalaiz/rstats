@@ -15,7 +15,9 @@ import {
 
 import FactionChart from './components/FactionChart.jsx';
 import SCPChart from './components/SCPChart.jsx';
+import SCPAmount from './components/SCPAmout.jsx'
 import LogList from './components/LogList.jsx';
+import SpawnwavesChart from './components/SpawnwavesChart.jsx'
 import GHicon from './components/GithubIcon.jsx'
 import logDesc from './logDescription.js' 
 
@@ -143,7 +145,7 @@ export default function App() {
                     mt="md"
                     onClick={() => handleLogFileChange(log.fileName)}
                   >
-                    {log.fileName === selectedLogFile ? 'Selected' : 'Select Log'}
+                    {log.fileName === selectedLogFile ? 'Selected' : 'Select Data'}
                   </Button>
                 </Card>
               ))}
@@ -157,12 +159,21 @@ export default function App() {
               <FactionChart logData={selectedData} />
 
               <Space h="lg" />
-              <Divider label="Anomalies Wins by SCP" labelPosition="center" />
+              <Divider label="Anomalies Winrate" labelPosition="center" />
               <SCPChart logData={selectedData} />
+
+              <Space h="lg" />
+              <Divider label="Spawnrate Statistics" labelPosition="center" />
+              <SpawnwavesChart logData={selectedData} />
+
+              <Space h="lg" />
+              <Divider label="Anomalies Wins Statistics" labelPosition="center" />
+              <SCPAmount logData={selectedData} />
 
               <Space h="lg" />
               <Divider label="Round Log List" labelPosition="center" />
               <LogList logData={selectedData} />
+
             </>
           )}
         </>

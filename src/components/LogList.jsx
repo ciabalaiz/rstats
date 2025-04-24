@@ -12,7 +12,7 @@ function nameFix(name) {
     } else  if (name == "ci" || name == "chaosinsurency" || name == "counter") {
         current = "Counter"
     } else {
-        current = "Foundation"
+        current = "GOC"
     } 
 
     return current

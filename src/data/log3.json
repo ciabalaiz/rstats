@@ -1,0 +1,201 @@
+[
+    {
+      "players": 26,
+      "winner": "Foundation",
+      "points": 34,
+      "winner2": "Anomalies",
+      "points2": 33,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["173", "049"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 27,
+      "winner2": "Foundation",
+      "points2": 23,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["280", "096", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 78,
+      "winner2": "Anomalies",
+      "points2": 17,
+      "spawnwaves": ["NTF", "NTF"],
+      "scps": ["966", "457", "172"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 41,
+      "winner2": "Foundation",
+      "points2": 27,
+      "spawnwaves": ["SH", "Foundation"],
+      "scps": ["096", "457", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 21,
+      "winner2": "Anomalies",
+      "points2": 17,
+      "spawnwaves": ["GOC", "GOC"],
+      "scps": ["049", "035", "966", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 57,
+      "winner2": "Foundation",
+      "points2": 42,
+      "spawnwaves": ["GOC", "SH"],
+      "scps": ["173", "457", "966"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 49,
+      "winner2": "Anomalies",
+      "points2": 33,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["049", "173", "106"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 43,
+      "winner2": "Foundation",
+      "points2": 23,
+      "spawnwaves": ["NTF", "GOC"],
+      "scps": ["966", "457", "096"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 72,
+      "winner2": "Anomalies",
+      "points2": 27,
+      "spawnwaves": ["Tacrep", "CI", "SH"],
+      "scps": ["966"]
+    },
+    {
+      "players": 36,
+      "winner": "GOC",
+      "points": 53,
+      "winner2": "Anomalies",
+      "points2": 19,
+      "spawnwaves": ["GOC"],
+      "scps": ["280", "173", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "GOC",
+      "points": 53,
+      "winner2": "Anomalies",
+      "points2": 29,
+      "spawnwaves": ["GOC", "GOC"],
+      "scps": ["457", "106", "966"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 43,
+      "winner2": "GOC",
+      "points2": 37,
+      "spawnwaves": ["GOC", "GOC", "GOC"],
+      "scps": ["076", "035", "966", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 44,
+      "winner2": "Foundation",
+      "points2": 18,
+      "spawnwaves": ["GOC", "GOC", "NTF"],
+      "scps": ["096", "966", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 57,
+      "winner2": "Counter",
+      "points2": 20,
+      "spawnwaves": ["CI", "SH"],
+      "scps": ["966", "457", "035", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 63,
+      "winner2": "Anomalies",
+      "points2": 34,
+      "spawnwaves": ["NTF", "NTF"],
+      "scps": ["280", "049", "076"]
+    },
+    {
+      "players": 36,
+      "winner": "Foundation",
+      "points": 66,
+      "winner2": "Anomalies",
+      "points2": 28,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["106", "280", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Counter",
+      "points": 88,
+      "winner2": "Anomalies",
+      "points2": 44,
+      "spawnwaves": ["CI", "NTF"],
+      "scps": ["280", "106", "173"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 46,
+      "winner2": "Counter",
+      "points2": 42,
+      "spawnwaves": ["NTF", "CI"],
+      "scps": ["106", "280", "076"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 91,
+      "winner2": "GOC",
+      "points2": 35,
+      "spawnwaves": ["GOC", "GOC", "CI"],
+      "scps": ["049", "076", "035"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 42,
+      "winner2": "Foundation",
+      "points2": 32,
+      "spawnwaves": ["Foundation", "CI", "Foundation", "CI"],
+      "scps": ["173", "076", "280"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 89,
+      "winner2": "Foundation",
+      "points2": 76,
+      "spawnwaves": ["NTF", "SH"],
+      "scps": ["049", "173", "966"]
+    },
+    {
+      "players": 36,
+      "winner": "Anomalies",
+      "points": 66,
+      "winner2": "GOC",
+      "points2": 49,
+      "spawnwaves": ["SH", "GOC", "GOC"],
+      "scps": ["096", "049", "457"]
+    }
+  ]
+  

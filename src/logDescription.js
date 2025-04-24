@@ -1,6 +1,21 @@
 // src/logDescriptions.js
 
 const logFileDescriptions = {
+  "log3.json": `Changes 4/22/2025
+- Reworked SCP-173's vision logic.
+- Adjusted spectator menu logic to hopefully work better when multiple players use the same display name.
+- Increased 076-2's knife damage.
+- 076-2's weapons now deal ballistic damage, which body armor protects against.
+- Private server owners can now freecam with Shift+P.
+- More adjustments to spectate menu.
+- SCP-173 no longer bleeds when shot. It should be easier to see as them now.
+- Fixed forcefield grenades breaking the grenade hotkey.
+- Added button to toggle visibility of spectators in the spectate menu. This is toggled off by default.
+- Players now immediately become a spectator on death. You can no longer send one last message before returning to lobby.
+- SCPs 035 and 049-2 now use the female rig if the player has that selected in player customization.
+- Gasmasks have been reworked into customization options. Several have been added to the customization menu.
+- Spectators no longer get jumpscared by SCPs.
+- Fixed an issue where guns that have hold-open animations would sometimes break if loaded by the client too quickly.`,
   "log2.json": `Changes 4/21/2025
 - Fixed 076-2's spear FOV change persisting if you unequip the spear after raising it.
 - Fixed 076-2's Vengeance audio effects persisting after death.
