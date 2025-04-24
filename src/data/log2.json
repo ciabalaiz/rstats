@@ -88,6 +88,24 @@
       "points2": 34,
       "spawnwaves": ["2 CI"],
       "scps": ["173", "096", "457"]
+    },
+    {
+      "players": 36,
+      "winner": "GOC",
+      "points": 59,
+      "winner2": "Anomalies",
+      "points2": 14,
+      "spawnwaves": ["Foundation", "GOC"],
+      "scps": ["173", "280", "457"]
+    },
+    {
+      "players": 34,
+      "winner": "Anomalies",
+      "points": 54,
+      "winner2": "Foundation",
+      "points2": 16,
+      "spawnwaves": ["Foundation", "GOC"],
+      "scps": ["035", "096", "457"]
     }
   ]
   
