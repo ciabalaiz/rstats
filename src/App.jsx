@@ -16,6 +16,7 @@ import {
 import FactionChart from './components/FactionChart.jsx';
 import SCPChart from './components/SCPChart.jsx';
 import SCPAmount from './components/SCPAmout.jsx'
+import SCPTeams from './components/SCPTeams.jsx'
 import LogList from './components/LogList.jsx';
 import SpawnwavesChart from './components/SpawnwavesChart.jsx'
 import GHicon from './components/GithubIcon.jsx'
@@ -76,6 +77,8 @@ export default function App() {
         setLoading(false);
       });
   }, []);
+
+  const fullData = logData.flatMap(log => log.data)
 
   const handleLogFileChange = (value) => {
     setSelectedLogFile(value);
@@ -168,7 +171,11 @@ export default function App() {
 
               <Space h="lg" />
               <Divider label="Anomalies Wins Statistics" labelPosition="center" />
-              <SCPAmount logData={selectedData} />
+              <SCPAmount logData={fullData} />
+              
+              <Space h="lg" />
+              <Divider label="SCPs Team-Ups" labelPosition="center" />
+              <SCPTeams logData={fullData} />
 
               <Space h="lg" />
               <Divider label="Round Log List" labelPosition="center" />

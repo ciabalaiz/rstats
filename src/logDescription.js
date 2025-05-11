@@ -21,6 +21,22 @@ const logFileDescriptions = {
 - Fixed 076-2's Vengeance audio effects persisting after death.
 - 076-2's ranged weapons now move faster and are handled by the client. This should make them feel better to use.
 - 076-2's sword now consumes less stamina during his Vengeance phase.`,
+"log4.json": `Changes 4/23/2025
+Thaumaturges have had their Curse temporarily disabled to see if that is what is causing people to crash. Please alert me on Discord if you crash when you spawn as one.
+
+- Disabled SH Thaumaturge's Curse spell.
+- Adjustments to server log.
+- Adjustments to explosion system.
+- Fixed a bug where left-clicking on headgear would break the inventory.
+- Wearing SCP-035 should now successfully reward points to the SCP team.
+- Killing spectators should no longer add "Label" to the server log.
+- Fixed some vulnerabilities with votekicks and RichText.
+- Fixed FP Doctor's viewmodel not appearing.
+- Added player bounds to SCP-914's room.
+- Tweaks to the player nameplate and diamond icons to hopefully fix spies/sympathizers.
+- SCP-207 now also increases your stamina regen rate.
+- Gave Glasses to all civvie classes.
+- Finally remembered to update SCP-096 and SCP-076-2's spawn goal UI.`,
   "log.json": `Changes 4/20/2025
 - Grenades can no longer be thrown after dying.
 - Grenades now store their thrower's team, so persistent grenades (like incendiaries) shouldn’t hurt teammates after you die.
