@@ -16,6 +16,23 @@ const logFileDescriptions = {
 - Gasmasks have been reworked into customization options. Several have been added to the customization menu.
 - Spectators no longer get jumpscared by SCPs.
 - Fixed an issue where guns that have hold-open animations would sometimes break if loaded by the client too quickly.`,
+"log5.json" : `Changes 5/10/2025
+- Civilian roles now spawn with no ammo.
+- Security roles spawn with 50% rifle and shotgun ammo.
+- Spies and sympathizers now spawn with 15 pistol rounds instead of 80.
+- Fixed some issues with the reinforcement timer.
+- Decreased GOC Whitesuit damage resistance and spawn frequency.
+- Fixed door/wall collision issues for some rooms.
+- Fixed Abel's spear so that it actually yoinks corpses again.
+- Removed Abel's passive which scales his shield based on nearby enemies.
+- Added shield-scaling system for SCPs where they get 1% of damage reduction per living player. This also sort of acts as a player counter for them to see how many humans remain.
+- Removed the scaling health/shield of SCPs in favor of the scaling damage reduction. This means SCP scaling is very different right now and balance updates will be made today to accomodate.
+- SCP-049 gets a small walkspeed boost after marking a player.
+- SCP-049-2's walkspeed boost on mark increased slightly.
+- Rewrote the friendly-healthbar logic to hopefully fix an issue where sometimes you wouldn't see any nameplates above friendlies.
+- Added CI/SH emblems above spies so friendlies can see better who their spy allies are.
+- Fixed an oversight where SH members would be given the overhead chevrons that allow SCPs to see eachother through walls.
+- Removed Classdobrine.`,
   "log2.json": `Changes 4/21/2025
 - Fixed 076-2's spear FOV change persisting if you unequip the spear after raising it.
 - Fixed 076-2's Vengeance audio effects persisting after death.

@@ -1,0 +1,30 @@
+[
+  {
+    "players": 36,
+    "winner": "Foundation",
+    "points": 65,
+    "winner2": "Anomalies",
+    "points2": 60,
+    "spawnwaves": ["Counter", "GOC", "Foundation"],
+    "scps": ["049", "280", "966"]
+  },
+  {
+    "players": 36,
+    "winner": "Counter",
+    "points": 59,
+    "winner2": "Anomalies",
+    "points2": 35,
+    "spawnwaves": ["Counter", "GOC", "GOC"],
+    "scps": ["096", "457", "280"]
+  },
+  {
+    "players": 36,
+    "winner": "Anomalies",
+    "points": 28,
+    "winner2": "None",
+    "points2": 0,
+    "spawnwaves": [],
+    "scps": ["966", "173", "096"],
+    "note": "Nuke detonated at ~11:00, and first spawn didn't happen, meaning this round (full server) had no spawns."
+  }
+]
