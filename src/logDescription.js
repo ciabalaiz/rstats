@@ -16,6 +16,27 @@ const logFileDescriptions = {
 - Gasmasks have been reworked into customization options. Several have been added to the customization menu.
 - Spectators no longer get jumpscared by SCPs.
 - Fixed an issue where guns that have hold-open animations would sometimes break if loaded by the client too quickly.`,
+"log6.json" : `Changes 5/14/2025
+- Reworked votekick system to now include a tiered "reputation" system.
+- The amount of endorsements required for a votekick to succeed now depends on your reputation level.
+- Expanded in-game moderation tools.
+- Votekicks now have their own GUI element to circumvent the issue where server messages sometimes do not fully appear in chat.
+- Reorganized pity to be part of a new usersettings datastore. This has reset pity.
+- Added a "Forfeit Pity" button to the spectator menu for players that do not wish to play as SCPs.
+- Reverted points rewarded for SCP-049 Resurrection to 1 point.
+- Increased SCP-049-2 rage speed by 2.
+- SCP-049-2 instances now get +30% damage reduction for the duration of the doctor's Mark ability.
+- Increased cooldown of SCP-049's Mark ability by 10 seconds.
+- Rare spawn of small NTF group at start of round replaced with TACREP.
+- SCP-049-2 wake up animation speed increased by 50%.  -  Server - Script:42
+- Nerfed the health and shield of SCP-173 and SCP-096.
+- Lowered SCP-096 damage reduction during rage by 5%.
+- Decreased SCP-096's rage duration by 5 seconds.
+- Increased SCP-096's bonus-rage-time-on-kill by 1s.
+- Added blood decals to gunshot wounds.
+- Improved script security and error handling, hopefully fixing the infinite round bug.
+- Game now detects when players fall into the void and properly respawns them.
+- Since void deaths are now handled, the reset button and /unstuck command have been disabled.`,
 "log5.json" : `Changes 5/10/2025
 - Civilian roles now spawn with no ammo.
 - Security roles spawn with 50% rifle and shotgun ammo.

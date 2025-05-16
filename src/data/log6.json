@@ -1,0 +1,152 @@
+[
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 74,
+    "winner2": "GOC",
+    "points2": 68,
+    "spawnwaves": ["Counter", "GOC"],
+    "scps": ["106", "049", "173"],
+    "timestamp": 1747072730809
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 55,
+    "winner2": "",
+    "points2": 37,
+    "spawnwaves": ["GOC", "Foundation", "Counter"],
+    "scps": ["280", "076", "173"],
+    "timestamp": 1747136778634
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 75,
+    "winner2": "GOC",
+    "points2": 45,
+    "spawnwaves": ["GOC", "Foundation"],
+    "scps": ["280", "049", "173"],
+    "timestamp": 1747226287008
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Foundation",
+    "points": 61,
+    "winner2": "Anomalies",
+    "points2": 55,
+    "spawnwaves": ["Foundation", "Anomalies"],
+    "scps": ["035", "173", "966"],
+    "timestamp": 1747227595193
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Foundation",
+    "points": 61,
+    "winner2": "Anomalies",
+    "points2": 55,
+    "spawnwaves": ["Foundation", "Anomalies"],
+    "scps": ["035", "173", "966"],
+    "timestamp": 1747227646929
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 47,
+    "winner2": "Foundation",
+    "points2": 32,
+    "spawnwaves": ["Foundation", "Anomalies"],
+    "scps": ["173", "076", "096"],
+    "timestamp": 1747229393881
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Counter",
+    "points": 39,
+    "winner2": "Anomalies",
+    "points2": 33,
+    "spawnwaves": ["Foundation", "Anomalies", "Counter"],
+    "scps": ["106", "280", "966"],
+    "timestamp": 1747238081454
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 41,
+    "winner2": "",
+    "points2": 23,
+    "spawnwaves": ["Foundation", "GOC"],
+    "scps": ["173", "106", "280"],
+    "timestamp": 1747238868690
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Counter",
+    "points": 55,
+    "winner2": "Anomalies",
+    "points2": 49,
+    "spawnwaves": ["Counter", "Foundation"],
+    "scps": ["966", "106", "457"],
+    "timestamp": 1747240286297
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 72,
+    "winner2": "",
+    "points2": 54,
+    "spawnwaves": ["TRT", "SerpentHand", "Counter", "GOC"],
+    "scps": ["076", "049", "457"],
+    "timestamp": 1747241532914
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Counter",
+    "points": 112,
+    "winner2": "Anomalies",
+    "points2": 30,
+    "spawnwaves": ["Counter", "Anomalies"],
+    "scps": ["076", "035", "280"],
+    "timestamp": 1747313749054
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 45,
+    "winner2": "",
+    "points2": 41,
+    "spawnwaves": ["Foundation", "GOC"],
+    "scps": ["106", "076", "096"],
+    "timestamp": 1747315038380
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 51,
+    "winner2": "GOC",
+    "points2": 43,
+    "spawnwaves": ["Foundation", "Counter", "GOC"],
+    "scps": ["076", "049", "280"],
+    "timestamp": 1747316353168
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 56,
+    "winner2": "",
+    "points2": 20,
+    "spawnwaves": ["Foundation", "Counter", "GOC"],
+    "scps": ["076", "457", "106", "035"],
+    "timestamp": 1747320885244
+  },
+  {
+    "writer": "jtrinilia",
+    "winner": "Anomalies",
+    "points": 82,
+    "winner2": "GOC",
+    "points2": 31,
+    "spawnwaves": ["Counter", "GOC"],
+    "scps": ["049", "035", "173", "106"],
+    "timestamp": 1747322198343
+  }
+]
